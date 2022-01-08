@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: cover;
+}
+
+header{
+    height: 5em;
+}
+
+img{
+    width: 100px;
+    height: 70px;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.aside {
+font-family: cursive;
+color: white;
+font-weight: bolder;
+margin-top: 15%;
+margin-left: 28%;
+}
+.box{
+    text-decoration: none;
+    margin-right: 70px;
+    float: right;
+    margin-top: -20%;
+}
+
+.headtag{
+    float: right;
+    margin-top: 33px;
+    margin-right: 55px;
+}
+
+.headtag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.headtag a:hover{
+    color: black;
+}
+
+.col-lg-4{
+    border: 1px solid black;
+    padding: 8px;
+    padding-top: 70px;
+    padding-left: 50px;
+    margin-right: 8px;
+    margin-left: 67px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    margin-top: 30px;
+}
+
+.col-lg-3{
+    border: 1px solid black;
+    padding:8px;
+    padding-top: 50px;
+    padding-left:50px;
+    padding-right: 50px;
+    margin-left: 35%;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.places-kas{
+    float:right;
+    color: black;
+    margin-top: -27%;
+    margin-right: 20%;
+}
+.col-lg-5{
+    margin-left: 50px;
+}
+
+.col-lg-6{
+    margin-left: 50px;
+}
+
+.kannur{
+    float: right;
+    margin-top:-22%;
+    margin-right: 20%;
+}
+
+.wayanad{
+    float: right;
+    margin-top: -30%;
+    margin-right:20% ;
+}
+.kozhikode{
+    float: right;
+    margin-right: 20%;
+    margin-top: -22%;
+}
+
+.malappuram{
+    float:right;
+    margin-right: 20%;
+    margin-top: -24%;
+}
+.palakkad{
+    float: right;
+    margin-right: 20%;
+    margin-top: -24%;
+}
+
+.idukki{
+    float:right;
+    margin-right: 20%;
+    margin-top: -22%;
+}
+
+.kottayam{
+    float:right;
+    margin-right: 20%;
+    margin-top: -29%;
+}
+
+.alappey{
+    float: right;
+    margin-right: 20%;
+    margin-top: -24%;
+}
+
+.pathanamthitta{
+    float: right;
+    margin-right: 20%;
+    margin-top: -27%;
+}
+.kollam{
+    float: right;
+    margin-right: 20%;
+    margin-top: -31%;
+}
+.tvm{
+    float: right;
+    margin-right: 20%;
+    margin-top: -29%;
+}
