@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="form.js"></script>
+</head>
+<body background="/Images/Kerala_Tourism_rep_image_Facebook_08082021_1200-compressed.jpg">
+
+<!--Header-->
+    <header>
+        <img src="/Images/Logo.jpg" alt="logo">
+        <div class="headtag">
+            <a href="index.html"> Home </a>
+            <a href="signin.html"> Sign In </a>
+            <a href="signup.html"> Sign Up </a>
+            <a href="districts.html"> Explore- Districts </a>
+        </div>
+    </header>
+<!--Sign up form div starts here-->
+<div class="col-lg-3">
+
+    <form class="row g-3" onsubmit="return validate()">
+        <div class="col-md-12">
+          <label for="name" class="form-label"> Name </label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Enter your name" required="required">
+        </div>
+        <div class="col-md-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" onfocus="checkEmail()" id="inputEmail4" placeholder="Email Address" required="required">
+          <span id="emailError" class="badge displayBadge"></span>
+        </div>
+        <div class="col-12">
+            <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" onfocus="checkPassword()" id="inputPassword4" placeholder="Create a password" required="required">
+          <span id="errorPassword" class="badge displayBadge"></span>
+        </div>
+        <div class="col-12">
+          <label for="phonenumber" class="form-label">Contact</label>
+          <input type="number" class="form-control" id="phonenumber" placeholder="Phone Number" onfocus="checkNumber()" required="required">
+          <span id="phoneError" class="badge displayBadge"></span>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" required="required">
+            <label class="form-check-label" for="gridCheck">
+              I agree to the <a href="#">Terms of use</a> and <a href="#">Privacy policy</a>
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+        </div>
+      </form>
+
+</div>
+</body>
+</html>
