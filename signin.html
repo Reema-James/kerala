@@ -7,12 +7,13 @@
     <title>Sign In</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="form.js"></script>
 </head>
-<body background="./Images/kathakali.jpeg">
+<body background="/Images/kathakali.jpeg">
 
 <!--Header-->
     <header>
-        <img src="./Images/Logo.jpg" alt="logo">
+        <img src="/Images/Logo.jpg" alt="logo">
         <div class="headtag">
             <a href="index.html"> Home </a>
             <a href="signin.html"> Sign In </a>
@@ -23,17 +24,18 @@
 
     <!--Form div starts here-->
     <div class= "col-lg-4">
-        <form>
+        <form name="myform" onsubmit="return val()">
             <div class="row mb-3">
               <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
               <div class="col-sm-7">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Enter username">
+                <input type="email" class="form-control" id="inputEmail3" onfocus="checkmail()" placeholder="Enter username" required="required">
+                <span id="emailError1" class="badge displayBadge"></span>
               </div>
             </div>
             <div class="row mb-3">
               <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
               <div class="col-sm-7">
-                <input type="password" class="form-control" id="inputPassword3" placeholder="Enter password">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Enter password" required="required">
               </div>
             </div>
 
@@ -48,7 +50,7 @@
                 </div>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button onsubmit="passcheck()" type="submit" class="btn btn-primary">Sign in</button>
             <p>Don't have an account?</a></p>
             <a href="signup.html"> Sign Up</a>
           </form>
